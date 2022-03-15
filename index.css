@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+}
+
+body {
+  height: 2000px;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* header-nav*/
+header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #333333;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: min-content;
+  align-items: center;
+}
+
+.header-nav li {
+  list-style: none;
+  float: right;
+}
+
+.header-nav {
+  overflow: auto;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 5px 5px;
+  margin-right: 60px;
+}
+
+/* logo */
+header h1 {
+  font-size: 48pt;
+  color: white;
+  margin: 0%;
+  font-weight: 200;
+  margin-right: auto;
+  margin-left: 60px;
+}
+
+/* second-nav */
+
+.second-nav {
+  font-size: 16px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px 60px 5px 60px;
+}
+
+.second-nav li {
+  list-style: none;
+  float: right;
+}
+
+.second-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.second-nav a {
+  display: block;
+  flex: 1;
+  text-decoration: none;
+  color: #333333;
+  padding: 10px 10px 10px 0px;
+}
+
+.search-bar {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* mask area*/
+
+.column-layout {
+  background-color: rgb(206, 205, 205);
+  padding: 40px 0px 40px 0px;
+  box-sizing: border-box;
+}
+.main-layout {
+  margin: 0px 60px 0px 60px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.left-part {
+  flex: stretch;
+  margin: 20px;
+}
+
+.middle-part {
+  flex: 1;
+  color: #333333;
+  font-size: 58px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.right-part {
+  flex: 1;
+  color: #333333;
+  font-size: 18px;
+
+  margin-right: 20px;
+}
+
+/* Deals and Fashion*/
+.heading {
+  font-size: 30pt;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.Deals {
+  display: block;
+  margin: 30px 60px 30px 60px;
+}
+
+.Posters {
+  display: flex;
+  justify-content: space-between;
+}
+.placeholder {
+  align-items: center;
+  margin-left: 0px;
+  width: 15%;
+  box-sizing: border-box;
+}
+
+.images {
+  height: 150px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.texting {
+  line-height: 20px;
+  font-size: small;
+  justify-items: center;
+  color: #333333;
+}
+
+.Fashion {
+  display: flex;
+  display: block;
+  padding: 0px 60px 30px 60px;
+}
+
+.individual {
+  background-color: #dbf3fa;
+  align-items: center;
+  margin: auto;
+  margin-left: 0;
+  margin-bottom: 20px;
+  padding: 5px 5px 0 5px;
+}
+
+.individual:last-child {
+  margin-right: 0;
+}
+
+.fashion-images {
+  height: 200px;
+  width: 150px;
+  margin-bottom: 0;
+}
+
+.para {
+  color: #333333;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.All {
+  margin: 0 60px 30px 60px;
+  line-height: 40px;
+  word-spacing: 5px;
+  color: #333333;
+  font-size: 14pt;
+}
+/* Footer*/
+footer {
+  background-color: #131a22;
+  color: white;
+}
+
+.contents-container {
+  display: flex;
+  margin: 0px 60px 0px 60px;
+}
+
+.contents {
+  font-size: 16px;
+  line-height: 40px;
+  padding: 30px 20px 100px 0px;
+
+  flex: 1;
+}
+
+.titles {
+  font-size: 18pt;
+  font-weight: 200;
+  margin: 0;
+}
+
+.contents li {
+  list-style: none;
+}
+
+.contents a {
+  display: block;
+  text-decoration: none;
+}
+
+.contents ul {
+  margin: 0;
+  padding: 0;
+}
